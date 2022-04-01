@@ -1,0 +1,68 @@
+body    {
+    background-color: rgb(236, 234, 223);
+}
+
+div.poster{
+    background-color: rgb(255, 81, 0);
+    width: 75%;
+}
+
+div.text {
+    font-size: 60px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition:0.5s; 
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-size: 160px;
+}
+
+div.text.two {
+    font-size: 40px;
+}
+
+div.text.three {
+    font-size: 20px;
+}
+
+/* rule 2 */
+
+div.text.a {
+    color: black;
+}
+
+div.text.b {
+    color: rgb(0, 217, 255);
+}
+
+div.text.c {
+    color: rgb(0, 255, 21);
+}
+
+/* rule 3 */
+
+div.text.x {
+    background-color: burlywood;
+}
+
+div.text.y {
+    background-color:antiquewhite;
+}
+
+div.text.z {
+    background-color: blueviolet;
+}
+
+
+
+
+div.small {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-stretch: ultra-expanded;
+    font-weight: bold;
+    color:blue;
+
