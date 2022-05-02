@@ -1,67 +1,88 @@
 body    {
-    background-color: rgb(236, 234, 223);
+    background-color: rgb(255, 255, 255);
 }
 
 div.poster{
-    background-color: rgb(255, 81, 0);
+    background-color: rgb(255, 255, 255);
     width: 100%;
+    background-image:url('mymind-XUlsF9LYeVk-unsplash (1).jpg');
+    background-size: cover;
+
+}
+
+@font-face {
+    font-family: "MyCustomFont";
+    src: url("BBBOcelot-Regular.woff2")
+    format("woff");
 
 }
 
 div.text {
-    font-size: 60px;
+    font-size: 160px;
     text-align: center;
     color: rgb(255, 255, 255);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    transition:0.80s; 
+    font-family:Arial, Helvetica, sans-serif;
+    transition:0.80s;
+    margin-bottom: 7cm;
+}
+
+div.header {
+    text-align: center;
+    font-size: 140px;
+    font-family: "MyCustomFont";
+    letter-spacing:2cm;
+    color: white;
+}
+
+.header.container {
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
 }
 
 /* rule 1 */
 
 div.text.one {
     font-size: 100px;
-    font-weight: 300;
-    font-family:SourceCodePro-ExtraLight; 
-    text-decoration:wavy;
    }  
 
 
 
 div.text.two {
-    font-size: 40px;
-    text-align: left;
+    font-size: 140px;
+
 }
 
 div.text.three {
-    font-size: 30px;
+    font-size: 200px;
 }
 
 /* rule 2 */
 
 div.text.a {
-    color: rgb(0, 0, 0);
+    color: rgb(190, 104, 77);
 }
 
 div.text.b {
-    color: rgb(0, 0, 0);
+    color: rgb(131, 224, 147);
 }
 
 div.text.c {
-    color: rgb(0, 0, 0);
+    color: rgb(132, 206, 216);
 }
 
 /* rule 3 */
 
 div.text.x {
-    background-color: rgb(236, 234, 223);
+    background-color: rgba(255, 255, 255, 0);
 }
 
 div.text.y {
-    background-color:rgb(236, 234, 223);
+    background-color:rgba(236, 234, 223, 0);
 }
 
 div.text.z {
-    background-color:rgb(236, 234, 223);
+    background-color:rgba(236, 234, 223, 0);
 }
 
 
@@ -69,7 +90,9 @@ div.text.z {
 
 div.small {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-stretch: ultra-expanded;
     font-weight: bold;
-    color:rgb(0, 0, 0);
+    color:#a2ff99;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10cm;
 

@@ -2,23 +2,24 @@ body    {
     background-color: rgb(0, 0, 0);
 }
 
-div.poster{
-    background-color: rgb(255, 255, 255);
+div.poster{ 
+    background-color: rgb(250, 241, 241);
     width: 100%;
     background-image:url('asset1.png');
     /* background-size: contain; */
     /* background-size: cover; */
-    background-size: 1000px;
-    /* background-repeat: repeat; */
+    background-size: 2000px;
+    background-repeat:no-repeat;
     background-position: cover;
+
 }
 
 div.text {
     font-size: 40px;
     text-align: left;
     color: rgb(255, 81, 0);
-    font-family:Arial, Helvetica, sans-serif;
-    transition:0.5s;  
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition:0.50s;  
     font-weight:800;
 }
 .container {
@@ -26,7 +27,19 @@ div.text {
     flex-wrap: wrap;
 }
 
-.col{
+.header {
+    font-size: 150px;
+    text-align: center;
+    color: rgb(223, 78, 35);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.header.container {
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(238, 53, 53);
+    background-color: rgb(0, 0, 0);
 }
 
 .w1-2 {
@@ -50,37 +63,31 @@ div.text.three {
 /* rule 2 */
 
 div.text.a {
-    
+    font-weight: 100;
 }
 
 div.text.b {
-    
+    font-weight: 400;
 }
 
 div.text.c {
-    
+    font-weight: 900;
 }
 
 /* rule 3 */
 
-div.text.x {
-    
+div.header {
+
 }
 
-div.text.y {
-   
+div.header{
+
 }
 
-div.text.z {
-    
+div.header {
+
 }
 
 
 
-
-div.small {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-stretch: ultra-expanded;
-    font-weight: bold;
-    color:blue;
 

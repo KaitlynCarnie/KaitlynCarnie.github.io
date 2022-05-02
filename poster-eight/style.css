@@ -6,11 +6,10 @@ div.poster{
     background-color: rgb(0, 0, 0);
     width: 100%;
     background-image:url('Abstract 4.png');
-    background-size: contain;
+    background-size: cover;
     /* background-size: cover; */
-    background-size: 170mm;
     /* background-repeat: repeat; */
-    background-position: bottom left;
+    background-position: center ;
 }
 
 div.text {
@@ -22,11 +21,21 @@ div.text {
     transition:0.5s;
 }
 
+
 .header {
-    font-size: 30px;
+    font-size: 40px;
     font-family:Arial, Helvetica, sans-serif;
-    color:rgb(0, 255, 149);
+    color: greenyellow;
+
 }
+
+.header.container {
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(0, 0, 0);
+    background-color: greenyellow;
+}
+
 
 .container {
     display: flex;
@@ -40,38 +49,46 @@ div.text {
     width: 50%;
 }
 
+.w1-4 {
+    width: 25%;
+}
+
 
 
 
 /* rule 1 */
 
 div.text.one {
-    font-size: 40px;
+    font-size: 100px;
 }
 
 div.text.two {
-    font-size: 80px;
+    font-size: 120px;
 }
 
 div.text.three {
-   font-size: 120px;
+   font-size: 180px;
 }
 
 /* rule 2 */
 
 div.text.a {
+    font-weight:400;
 } 
 
 div.text.b {
+    font-weight: 200;
 }
 
 div.text.c {
+font-weight: 900;
+transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 /* rule 3 */
 
 div.text.x {
-    
+
 }
 
 div.text.y {
